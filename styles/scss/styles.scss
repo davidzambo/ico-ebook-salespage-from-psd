@@ -1,0 +1,168 @@
+// Bootstrap 4.0.0-beta.2 grid system
+@import "../../bootstrap-4.0.0-beta.2/scss/bootstrap-grid";
+// Roboto fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
+// media queries
+@import "media-queries";
+$dark-blue: #04365C;
+// $dark-blue: rgba(4,54,92,1);
+$medium-blue: #35678C;
+// $medium-blue: rgba(53,103,140,1);
+$light-blue: #005D9C;
+// $light-blue: rgba(0,93,156,1);
+$extra-light-blue: #7795ab;
+// $extra-light-blue: rgba(119, 149, 171, 1);
+$yellow: #FABA20;
+// $yellow: rgba(250,186,32,1);
+$gold: #FAAF20;
+// $gold: rgba(250, 175, 32, 1);
+$grey: #EBEBEB;
+// $grey: rgba(235,235,235,1);
+$white: #B4C7D5;
+// $white: rgba(180, 199, 213, 255);
+$light-black: rgba(0, 0, 0, 0.74);
+$roboto: 'Roboto',
+sans-serif;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: $roboto;
+}
+html{
+  min-height: 100%;
+}
+
+header {
+    background-image: linear-gradient( $dark-blue, $light-blue 75%, $dark-blue);
+    color: $medium-blue;
+    padding-top: 1rem;
+    img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        vertical-align: bottom;
+    }
+    h5 {
+        margin: 1rem 0 0 0;
+        color: $extra-light-blue;
+        font-weight: 300;
+        letter-spacing: -1px;
+        font-size: 7vw;
+    }
+    hr {
+        color: $medium-blue;
+    }
+    h1 {
+        margin-top: 0;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        font-weight: 900;
+        line-height: 10vw;
+        font-size: 12vw;
+    }
+    .full-height {
+        height: 100%;
+    }
+    .author-image-container {
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .header-text {
+        font-size: 4.5vw;
+        font-weight: 300;
+        margin: 4vw;
+        line-height: 8vw;
+        color: $white;
+    }
+}
+
+main {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        font-size: 0.8rem;
+        margin-top: 2rem;
+        color: $light-black;
+    }
+    .quote-author {
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        color: $light-blue;
+        font-weight: 700;
+        .quote-name {
+            text-transform: uppercase;
+            .quote-first-letter {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .order {
+        h1 {
+            color: $gold;
+            font-size: 2rem;
+            text-decoration: underline;
+            margin: 1rem;
+        }
+        ul {
+            list-style: none;
+            li::before {
+                content: "•";
+                color: $gold;
+                display: inline-block;
+                width: 1rem;
+                margin-left: -1rem;
+            }
+            li{
+              margin-top: 1rem;
+            }
+            margin-bottom: 2rem;
+            padding-left: 1rem;
+        }
+        input{
+          display: block;
+          padding: 0.7rem 0.7rem 0.35rem 0.7rem;
+          margin: 1rem auto;
+          width: 90%;
+          }
+        p{
+          text-align: center;
+          margin: 3rem 1rem;
+        }
+    }
+}
+
+footer{
+  width: 100%;
+  background-color: $grey;
+  padding: 1.8rem;
+  text-align: center;
+  *{
+    font-size: 0.7rem;
+  }
+  a{
+    color: $light-black;
+  }
+
+}
+
+.yellow {
+    color: $yellow;
+}
+
+.step {
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.container-fluid {
+  margin-bottom: 4rem;
+}
