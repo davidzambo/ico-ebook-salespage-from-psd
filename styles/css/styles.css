@@ -1306,6 +1306,96 @@ main {
     padding: 0.7rem 0.7rem 0.35rem 0.7rem;
     margin: 1rem auto;
     width: 90%; }
+  main .order .step_arrow_box_light_blue {
+    position: relative;
+    background: #00c2ff;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 2.5rem;
+    width: 30%;
+    display: inline-block;
+    margin: 0; }
+  main .order .step_arrow_box_light_blue:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-left-color: #00c2ff;
+    border-width: 1.25rem 0 1.25rem 0.625rem;
+    margin-top: -1.25rem;
+    z-index: 100; }
+  main .order .step_arrow_box_medium_grey {
+    position: relative;
+    background: #c8c8c8;
+    text-align: center;
+    text-transform: capitalize;
+    color: #414141;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 2.5rem;
+    width: 30%;
+    display: inline-block;
+    margin: 0; }
+  main .order .step_arrow_box_medium_grey:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-left-color: #c8c8c8;
+    border-width: 1.25rem 0 1.25rem 0.625rem;
+    margin-top: -1.25rem;
+    z-index: 100; }
+  main .order .step_arrow_box_light_grey {
+    position: relative;
+    background: #dedede;
+    text-align: center;
+    text-transform: capitalize;
+    color: #545454;
+    font-weight: 900;
+    text-align: center;
+    font-size: 0.75rem;
+    height: 2.5rem;
+    width: 38%;
+    display: inline-block; }
+  main .order .arrow_box {
+    position: relative;
+    background: #FAAF20;
+    text-align: center;
+    text-transform: capitalize;
+    height: 4.25rem;
+    padding: 1.2rem 1rem 0 1rem;
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin: 2rem 2rem 2rem 1rem; }
+  main .order .arrow_box:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-left-color: #FAAF20;
+    border-width: 2.15rem 0 2.15rem 1.075rem;
+    margin-top: -2.1rem; }
   main .order p {
     text-align: center;
     margin: 3rem 1rem; }
@@ -1317,8 +1407,24 @@ footer {
   text-align: center; }
   footer * {
     font-size: 0.7rem; }
+  footer p {
+    margin: 0; }
   footer a {
     color: rgba(0, 0, 0, 0.74); }
+  footer button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #B4C7D5;
+    background-color: #005D9C;
+    padding: 0.5rem 1rem;
+    margin: 0 0.125rem;
+    border-radius: 4px;
+    outline: none;
+    border: none; }
+    footer button:hover {
+      cursor: pointer;
+      background-color: #003f69;
+      transition: all 0.3s; }
 
 .yellow {
   color: #FABA20; }
@@ -1326,9 +1432,15 @@ footer {
 .step {
   font-weight: 900;
   text-align: center;
-  font-size: 0.8rem; }
+  font-size: 0.75rem; }
 
 .container-fluid {
   margin-bottom: 4rem; }
+
+.step-light-blue {
+  background-color: #00c2ff; }
+
+.step-medium-grey {
+  background-color: #c8c8c8; }
 
 /*# sourceMappingURL=styles.css.map */
