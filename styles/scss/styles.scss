@@ -68,7 +68,7 @@ header {
         letter-spacing: 0;
         font-weight: 900;
         line-height: 10vw;
-        font-size: 12vw;
+        font-size: 14vw;
     }
     .full-height {
         height: 100%;
@@ -79,7 +79,7 @@ header {
         align-items: flex-end;
     }
     .header-text {
-        font-size: 4.5vw;
+        font-size: 7.5vw;
         font-weight: 300;
         margin: 4vw;
         line-height: 8vw;
@@ -88,14 +88,13 @@ header {
 }
 
 main {
-    padding: 0.5rem;
-    font-size: 0.7rem;
+    padding-top: 1rem;
     img {
         width: 100%;
         height: auto;
     }
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-top: 2rem;
         color: $light-black;
     }
@@ -112,6 +111,7 @@ main {
         }
     }
     .order {
+        margin-left: 0;
         h1 {
             color: $gold;
             font-size: 2rem;
@@ -145,13 +145,14 @@ main {
             text-align: center;
             text-transform: capitalize;
             color: white;
-            font-weight: 900;
+            font-weight: 700;
             text-align: center;
-            font-size: 0.75rem;
+            font-size: 0.70rem;
             height: 2.5rem;
             width: 30%;
             display: inline-block;
             margin: 0;
+            padding-top: 1px;
         }
         .step_arrow_box_light_blue:after {
             left: 100%;
@@ -174,13 +175,14 @@ main {
             text-align: center;
             text-transform: capitalize;
             color: #414141;
-            font-weight: 900;
+            font-weight: 700;
             text-align: center;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             height: 2.5rem;
             width: 30%;
             display: inline-block;
             margin: 0;
+            padding-top: 1px;
         }
         .step_arrow_box_medium_grey:after {
             left: 100%;
@@ -205,10 +207,14 @@ main {
             color: #545454;
             font-weight: 900;
             text-align: center;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             height: 2.5rem;
-            width: 38%;
+            width: 40%;
             display: inline-block;
+            margin: 0;
+            padding-right: 0.35rem;
+            padding-left: 0.5rem;
+            padding-top: 1px;
         }
         .arrow_box {
             position: relative;
@@ -220,7 +226,7 @@ main {
             color: white;
             font-size: 1.35rem;
             font-weight: 500;
-            margin: 2rem 2rem 2rem 1rem;
+            margin: 1rem 2rem 0 1rem;
         }
         .arrow_box:after {
             left: 100%;
@@ -238,7 +244,16 @@ main {
         }
         p {
             text-align: center;
-            margin: 3rem 1rem;
+        }
+        .main-footer {
+            font-size: 0.9rem;
+            padding: 0rem 3rem;
+        }
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+            text-decoration: none;
         }
     }
 }
@@ -286,7 +301,7 @@ footer {
 }
 
 .container-fluid {
-    margin-bottom: 4rem;
+    min-height: calc(100vh - 6rem);
 }
 
 .step-light-blue {

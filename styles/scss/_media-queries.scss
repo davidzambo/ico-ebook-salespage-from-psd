@@ -13,14 +13,20 @@
                 font-size: 1.5rem
             }
             h1 {
-                font-size: 4rem;
-                line-height: 2.5rem;
+                margin-top: 1rem;
+                font-size: 5rem;
+                line-height: 3rem;
             }
             .header-text {
-                font-size: 2rem;
+                font-size: 4rem;
                 margin: 4rem 4rem;
-                line-height: 3.5rem;
+                line-height: 4.5rem;
             }
+        }
+        main{
+          p{
+            font-size: 1.2rem;
+          }
         }
     }
 }
@@ -38,13 +44,13 @@
                 font-size: 1rem
             }
             h1 {
-                font-size: 2.2rem;
+                font-size: 3rem;
                 line-height: 1.6rem;
             }
             .header-text {
-                font-size: 1.2rem;
-                margin: 1.5rem 1.5rem;
-                line-height: 2rem;
+                font-size: 2rem;
+                margin: 1.5rem 2vw;
+                line-height: 2.1rem;
             }
             img {
                 max-height: 12rem;
@@ -54,7 +60,11 @@
         main {
             padding-top: 1rem;
             p {
-                font-size: 0.7rem;
+                font-size: 1rem;
+              }
+            .main-footer {
+                font-size: 0.9rem;
+                padding: 0rem 3rem;
             }
         }
     }
@@ -67,6 +77,12 @@
     }
     body * {
         font-size: 1rem;
+        header{
+          .header-text{
+            font-size: 1.8rem;
+            margin: 1.5rem 2vw 1.5rem 4vw;
+          }
+        }
     }
 }
 
